@@ -287,7 +287,6 @@ public class MiniCh8Controller : ControllerBase
 
         for (int i = 0; i < studentsList.Count; i++)
         {
-            //condition to check the studenList firstName to our variable firstName
             if (studentsList[i].firstName == studentFirstName)
             {
                 result = studentsList[i];
@@ -296,5 +295,77 @@ public class MiniCh8Controller : ControllerBase
         }
         return result;
 
+    }
+    
+    [HttpGet]
+    [Route("GetStudentByLastName/{studentLastName}")]
+    public StudentListModel GetStudentByLastName(string studentLastName)
+    {
+        StudentListModel result = new StudentListModel()
+        {
+            firstName = "N/A",
+            lastName = "N/A",
+            slackName = "N/A",
+            email = "N/A",
+            hobbies = "N/A"
+        };
+
+        for (int i = 0; i < studentsList.Count; i++)
+        {
+            if (studentsList[i].lastName == studentLastName)
+            {
+                result = studentsList[i];
+                break;
+            }
+        }
+        return result;
+    }
+
+    [HttpGet]
+    [Route("GetStudentBySlackName/{studentSlackName}")]
+    public StudentListModel GetStudentBySlackName(string studentSlackName)
+    {
+        StudentListModel result = new StudentListModel()
+        {
+            firstName = "N/A",
+            lastName = "N/A",
+            slackName = "N/A",
+            email = "N/A",
+            hobbies = "N/A"
+        };
+
+        for (int i = 0; i < studentsList.Count; i++)
+        {
+            if (studentsList[i].slackName == studentSlackName)
+            {
+                result = studentsList[i];
+                break;
+            }
+        }
+        return result;
+    }
+
+    [HttpGet]
+    [Route("GetStudentByEmail/{studentEmail}")]
+    public StudentListModel GetStudentByEmail(string studentEmail)
+    {
+        StudentListModel result = new StudentListModel()
+        {
+            firstName = "N/A",
+            lastName = "N/A",
+            slackName = "N/A",
+            email = "N/A",
+            hobbies = "N/A"
+        };
+
+        for (int i = 0; i < studentsList.Count; i++)
+        {
+            if (studentsList[i].email == studentEmail)
+            {
+                result = studentsList[i];
+                break;
+            }
+        }
+        return result;
     }
 }
