@@ -1,0 +1,11 @@
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\AllForOne.exe
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\appsettings.Development.json
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\appsettings.json
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\AllForOne.dll
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\AllForOne.deps.json
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\AllForOne.runtimeconfig.json
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\AllForOne.pdb
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\Microsoft.OpenApi.dll
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mewil\OneDrive\Desktop\Coding Master\Homework\AllForOne\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

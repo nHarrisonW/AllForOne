@@ -1,5 +1,5 @@
-namespace StudentDirectoryApi.Models;
-
+namespace StudentDirectoryApi.Models
+{
     public class StudentListModel
     {
         public string firstName { get; set; }
@@ -10,3 +10,4 @@ namespace StudentDirectoryApi.Models;
         
         public StudentListModel(){}
     }
+}

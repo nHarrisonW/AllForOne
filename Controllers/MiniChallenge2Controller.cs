@@ -7,7 +7,7 @@ namespace AllForOne.Controllers;
 public class MiniChallenge2Controller : ControllerBase
 {
     [HttpGet]
-    [Route("Adding/{numberOne}/{numberTwo")]
+    [Route("Adding/{numberOne}/{numberTwo}")]
     public int Adding(int numberOne = 0, int numberTwo = 0)
     {
         return (numberOne + numberTwo);
