@@ -4,7 +4,7 @@ namespace AllForOne.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class FoodPickerController : ControllerBase
+public class MiniChallenge9Controller : ControllerBase
 {
         [HttpGet]
    [Route("getFood/{option}")]

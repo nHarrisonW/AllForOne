@@ -4,7 +4,7 @@ namespace AllForOne.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class MiniCh8Controller : ControllerBase
+public class MiniChallenge8Controller : ControllerBase
 {
     public List<StudentListModel> studentsList = new List<StudentListModel>()
       {

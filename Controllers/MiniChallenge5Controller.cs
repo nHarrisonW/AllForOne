@@ -4,7 +4,7 @@ namespace AllForOne.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class MiniCahllenge5Controller : ControllerBase
+public class MiniChallenge5Controller : ControllerBase
 {
     [HttpGet]
     [Route ("game/{word1}/{word2}/{word3}/{word4}/{word5}/{word6}/{word7}/{word8}/{word9}/{word10}")]
